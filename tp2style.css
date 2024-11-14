@@ -1,0 +1,78 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif, 'Times New Roman', Times, serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif, 'Arial Narrow', Arial, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
+    backround-color: #b5f1e4;
+    color: #420000;
+}
+header{
+    background-color:rgb(80, 176, 221);
+    color:rgb(23, 105, 78);
+    padding: 20px;
+    text-align:center;
+}
+nav{
+    background-color: #fffd9e;
+    padding: 10px;
+} 
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+nav ul li{
+    display:inline;
+    margin: 0 10px;
+}
+na ul li a{
+    text-decoration:none;
+    color: #720b0b;
+    font-weight:bold;
+}
+nav ul li a: hover{
+    color: #0000ff;
+}
+main{
+    padding: 20px;
+}
+h1,h2{
+    color: #16459b;
+}
+strong{
+    color:rgb(241, 192, 131);
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td{
+    border: 1px solid #000000;
+}
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+th{
+    background-color:aliceblue;
+}
+img{
+    width: 400px;
+    height:auto;
+    margin: 20 px 0;
+    display: block;
+}
+footer {
+    background-color: #1c6656;
+    color:rgb(255, 255, 255);
+    text-align:center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+}
+footer a {
+    color:rgb(14, 91, 163);
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration:undeline;
+}
